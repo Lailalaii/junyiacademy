@@ -8,6 +8,9 @@ remote test for software engineer
     - (B)請寫一個程式把裡面的字串,每個單字本身做反轉,但是單字的順序不變。 
     >舉例 
     >f ( "junyiacademy" ) == "ymedacaiynuj" f ( "flipped class room is important" ) == "deppilf ssalc moor si tnatropmi" 
+    
+    
+
 ---
 2. 請寫一個程式,Input 是一個數字,Output 是從 1 到這個數字,扣除掉所有 3 的 
 倍數以及 5 的倍數,但是需要保留同時是 3 和 5 的倍數的總數字數。 
