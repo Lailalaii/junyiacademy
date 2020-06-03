@@ -9,6 +9,16 @@ remote test for software engineer
     >舉例 
     >f ( "junyiacademy" ) == "ymedacaiynuj" f ( "flipped class room is important" ) == "deppilf ssalc moor si tnatropmi" 
 
+        //1(A)
+        function f(string){
+            var myArray = [];
+            for (var i = string.length; i >0; i--){
+            myArray += string.substr((i-1),1);
+            }
+            return myArray;
+         }
+         console.log(f("junyiacademy"));
+         //1(B)這個功能我沒有學過也沒有看過，不確定要怎麼寫。我猜應該有一個可以把字母反轉的指令，搭配前面的照順序輸出字串方法即可完成任務。
 ---
 2. 請寫一個程式,Input 是一個數字,Output 是從 1 到這個數字,扣除掉所有 3 的 
 倍數以及 5 的倍數,但是需要保留同時是 3 和 5 的倍數的總數字數。 
